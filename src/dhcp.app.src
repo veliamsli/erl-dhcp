@@ -1,0 +1,12 @@
+{application, dhcp,
+ [
+  {description, "dhcp tool"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { dhcp_app, []}},
+  {env, []}
+ ]}.
